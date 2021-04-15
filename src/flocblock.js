@@ -1,3 +1,5 @@
 'use strict';
 // Remove the interest cohort API
-Document.prototype.interestCohort = undefined;
+if ('interestCohort' in Document.prototype) {
+  delete Document.prototype.interestCohort;
+}
