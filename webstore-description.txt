@@ -1,5 +1,7 @@
 FLoC, short for Federated Learning of Cohorts, is the new algorithm used by Google Chrome to group users into buckets based on their interests. You can read more about it here: https://web.dev/floc, and why Brave and some other browsers have blocked it here: https://brave.com/why-brave-disables-floc/. 
 
-If you HAVE to use Chrome, this extension is a simple way to prevent FLoC from divulging your "cohort id" to websites. You can also consider using DuckDuckGo's extension for this plus other privacy protections: https://spreadprivacy.com/block-floc-with-duckduckgo/
+If you HAVE to use Chrome, this extension is a simple way to prevent FLoC from divulging your "cohort id" to websites. You can also consider using DuckDuckGo's extension for this plus other privacy protections: https://spreadprivacy.com/block-floc-with-duckduckgo.
 
-Icons made by https://www.freepik.com from https://www.flaticon.com
+The extension inserts a script on every page load that removes the FLoC API (document.interestCohort()) so if a website tries to call that function, it will get an error. This is also unfortunately why the FLoC Block extension needs permission for all websites. However, it's completely open source so you can see what it's doing here: https://github.com/shivankaul/flocblock. I've included instructions on how to install from source. 
+
+Icons credit: https://www.freepik.com from https://www.flaticon.com
