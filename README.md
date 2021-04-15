@@ -16,7 +16,7 @@ Go to [the demo website](https://floc.glitch.me) - your cohort id should not be 
 TBD
 
 ### From GitHub
-1. Download `flocblock.zip` from https://github.com/ShivanKaul/flocblock/releases/latest. Direct link: https://github.com/ShivanKaul/flocblock/releases/download/v0.1/flocblock.zip
+1. Download `flocblock.zip` from https://github.com/ShivanKaul/flocblock/releases/latest. Direct link: https://github.com/ShivanKaul/flocblock/releases/download/v0.0.1/flocblock.zip
 2. Extract extension.
 3. [Follow the instructions to load into Chrome.](https://www.smashingmagazine.com/2017/04/browser-extension-edge-chrome-firefox-opera-brave-vivaldi/#google-chrome-opera-vivaldi)
 
