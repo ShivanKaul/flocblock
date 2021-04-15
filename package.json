@@ -1,0 +1,21 @@
+{
+  "name": "FLoCBlock",
+  "version": "0.0.1",
+  "description": "Block FLoC from running on Chrome",
+  "main": "",
+  "scripts": {
+    "deps": "npm install",
+    "stage": "mkdir ext/dist || echo Dist already exists.",
+    "clean": "rm -rf ext/dist && rm -f flocblock.zip",
+    "bundle": "browserify -o ext/dist/flocblock.js src/flocblock.js && browserify -o ext/dist/inject.js src/inject.js",
+    "build": "npm run stage && npm run bundle",
+    "rebuild": "npm run clean && npm run build",
+    "pkg": "npm run rebuild && zip -r flocblock.zip ext/dist ext/manifest.json ext/assets"
+  },
+  "author": "Shivan Sahib",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "16.5.2"
+  },
+  "private": true
+}
