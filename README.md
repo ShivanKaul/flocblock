@@ -3,12 +3,12 @@
 Prevent [FLoC](https://web.dev/floc/) ad-targeting code from running in Chrome.
 
 ## Why?
-[EFF](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea), [Brave](https://brave.com/why-brave-disables-floc/).
+Read analysis by [EFF](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea) and [Brave](https://brave.com/why-brave-disables-floc/).
 
-## How?
+## How? 
 By removing `document.interestCohort()` from every page so that a website cannot get your cohort id. 
 
-## How do I verify?
+## How do I verify that the extension is working?
 Go to [the demo website](https://floc.glitch.me) - your cohort id should not be detectable after installing this extension. 
 
 ## To install
