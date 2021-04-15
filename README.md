@@ -5,7 +5,7 @@
 Prevent Federated Learning of Cohorts aka [FLoC](https://web.dev/floc/) ad-targeting code from running in Chrome.
 
 ## Why?
-FLoC, short for Federated Learning of Cohorts, is the new mechanism used by Google Chrome to group users into buckets based on their interests. You can read more about it [here](https://web.dev/floc) and why Brave and some other browsers have blocked it [here](https://brave.com/why-brave-disables-floc). [EFF](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea) did some analysis as well. 
+~~So I could call it FLoC Block~~ FLoC, short for Federated Learning of Cohorts, is the new mechanism used by Google Chrome to group users into buckets based on their interests. You can read more about it [here](https://web.dev/floc) and why Brave and some other browsers have blocked it [here](https://brave.com/why-brave-disables-floc). [EFF](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea) did some analysis as well. 
 
 ## How does this Chrome Extension help? 
 If you HAVE to use Chrome but don't like the idea of being grouped into a bucket (aka cohort) based on the websites you visit, this extension is a simple way to prevent FLoC from divulging your "cohort id" to websites. The extension removes `document.interestCohort()` from every page so that a website cannot get your cohort id. 
@@ -13,7 +13,12 @@ If you HAVE to use Chrome but don't like the idea of being grouped into a bucket
 ## How do I verify that the extension is working?
 Go to [the demo website](https://floc.glitch.me) - your cohort id should not be detectable after installing this extension. 
 
-## To install
+This is what the demo website should show after you install the extension:
+
+![After screenshot](screenshots/screenshot_after.png?raw=true)
+*"not supported by this browser"*
+
+## How do I install this extension?
 ### From Chrome Web Store
 TBD
 
