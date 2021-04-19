@@ -20,10 +20,10 @@ This is what the demo website should show after you install the extension:
 
 ## How do I install this extension?
 ### From Chrome Web Store
-TBD
+https://chrome.google.com/webstore/detail/floc-block/amoljnglfkpjdjhmeaocffefmhppmane
 
 ### From GitHub
-1. Download `flocblock.zip` from https://github.com/ShivanKaul/flocblock/releases/latest. Direct link: https://github.com/ShivanKaul/flocblock/releases/download/v0.0.1/flocblock.zip
+1. Download `flocblock.zip` from https://github.com/ShivanKaul/flocblock/releases/latest. Direct link: https://github.com/ShivanKaul/flocblock/releases/download/v0.0.2/flocblock.zip
 2. Extract extension.
 3. [Follow the instructions to load into Chrome.](https://www.smashingmagazine.com/2017/04/browser-extension-edge-chrome-firefox-opera-brave-vivaldi/#google-chrome-opera-vivaldi)
 
@@ -36,7 +36,7 @@ npm run build # to build the extension.
 npm run pkg # to create a .zip
 ```
 ### To setup FLoC locally
-https://floc.glitch.me/
+Follow the instructions at https://floc.glitch.me
 
 
 ## Icons
